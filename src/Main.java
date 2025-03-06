@@ -11,6 +11,7 @@ public class Main {
         char s = S.charAt(0);
         int utf = (int) s;
 
+
         String binary1 = Integer.toBinaryString(utf);
 
         StringBuilder resstr = new StringBuilder(binary1.length());
